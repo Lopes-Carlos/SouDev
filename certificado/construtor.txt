@@ -1,0 +1,97 @@
+<?php
+/** CERTIFICADO AUTORIZADO PARA BANDA DEZEMHADA VS 1.1
+*
+* Author: Lopes Carlos Joaquim
+* Projeto: FbSuper Tecnology
+* Permição: Banda Desenhada
+* Versão: 1.1
+* Tecnologia: Angolana - (Publica) da FbSuper
+* E-mail: lopescarloshtmljs@gmail.com
+*
+**/
+
+/**
+* Configurações de acesso e tipagens de conteudos...
+**/
+
+// Banda Desenhada | Musicas | Videos | Red Social | Frases 
+$tipo_de_site = "Musicas";
+
+// insira apenas o nome da imagem. pasta: fonte/admin/imagem.png
+$icone_do_site = "logotipo.svg";
+
+// Insira o nome do seu site limitado há 18 caracteres
+$nome_do_site = "Musicas Online";
+
+/**
+* Configurar cabeçalho do site parte 1 Conteudos...
+**/
+
+// Sim | Não
+$mostrar_cabecalho = "Sim";
+
+// Sim | Não
+$mostrar_rodape = "Sim";
+
+
+// Sim | Não |( 1 | 2 | 3 | 4 | 5 )| Sim + 1 ...
+$mostrar_link_cabecalho = "Sim";
+
+// defina um texto qualquer com 4 ou mais Caracteres... para ser visivel
+$titulo_do_site = "Banda Desenhada";
+$link_1_titulo = "Musicas";
+$link_2_titulo = "Privacidade";
+$link_3_titulo = "Contacto";
+$link_4_titulo = "Configurações";
+$link_5_titulo = "Ajuda";
+
+/**
+* Configurar Corpo do site parte 1 Conteudos...
+**/
+
+// Sim | Não 
+$mostrar_slider_corpo = "";
+
+// Colunas | Listas
+$mostrar_forma_musicas = "Listas";
+
+//definir titulo do slider em execução
+$titulo_slider_corpo = "SouDev lib FbSuper";
+//definir texto do slider em execução
+$texto_slider_corpo = "seja bem vindo venha conhecer-nos e ganha de graça o curso SouDev";
+//definir titulo do botão em slider da execução
+$button_slider_corpo = "carregar serrie";
+//definir fundo de imagem do slider em execução
+$fundo_slider_corpo = "fotoa.png";
+
+
+/**
+* Configurar Rodape do site Parte 1 Conteudos visuais
+**/
+
+// Sim | Não | Opção 
+$rdp_ver_detalhes = "Opção";
+
+// Textos rodape
+$rdp_1_titulo = "&copy;2021 power by ";
+$rdp_2_titulo = "FbSuper Tecnology";
+$rdp_3_titulo = "http://fbsuper.ga";
+$rdp_4_titulo = "Lopes Carlos";
+$rdp_5_titulo = "lopescarloshtmlks@gmail.com";
+
+/**
+* Configurar banco de dado para melhor desempenho...
+**/
+
+// localhost | http://101.11.5
+$host_bd_usuario = "localhost";
+// digite o seu user name ou seja usuario si existir
+$usuario_bd_admin = "root";
+// insira uma senha do servidor se existir
+$senha_bd_servidor = "";
+// digite o nome do banco de dados ex: SouDev
+$nome_bd_conectar = "soudev_fbsuper";
+
+//deixa nulas estas variaveis, por favor
+$bd = ""; $erro_do_banco = "";
+?>
